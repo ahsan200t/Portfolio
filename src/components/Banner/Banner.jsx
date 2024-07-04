@@ -1,10 +1,9 @@
 import { MdEmail, MdOutlineWhatsapp } from "react-icons/md";
-import img from "../../assets/my coding photo.jpg";
+import img from "../../assets/my_formal_photo-no-bg.png";
 import {
   FaCalendarAlt,
   FaFacebook,
   FaGithubSquare,
-  FaInstagram,
   FaLinkedin,
   FaTwitter,
 } from "react-icons/fa";
@@ -16,7 +15,7 @@ const Banner = () => {
     <div className="text-white">
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-16">
         <div className="md:col-span-1 rounded-md relative">
-          <img className="w-full" src={img} alt="banner image" />
+          <img className="w-full rounded-full border-8" src={img} alt="banner image" />
           <div className="bg-white mt-10 w-2/3 h-10 rounded-3xl p-2 absolute bottom-3 ml-8 flex justify-center gap-3">
             <a href="https://www.facebook.com/profile.php?id=100028344363466&mibextid=ZbWKwL">
               <FaFacebook className="text-gray-600 text-xl" />

@@ -22,7 +22,7 @@ const Contact = () => {
 
   return (
     <section className="p-4 bg-black text-white mb-10">
-      <h2 className="text-2xl font-bold">Contact</h2>
+      <h2 className="text-2xl font-bold text-center mb-8 border-2 p-4">Connect With Me</h2>
       <form
         ref={form}
         onSubmit={sendEmail}
